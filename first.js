@@ -2,7 +2,6 @@ var fnum = prompt("give me first number please :");
 var snum=prompt("give me secound number please :");
 var dis =prompt("enter ono of these + - * / ");
 
-colaction();
 function colaction(){
 if(dis=="+"){
 
@@ -48,3 +47,5 @@ function min(){
             alert(divi1);
             
             }}
+
+            colaction();
