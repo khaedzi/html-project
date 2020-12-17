@@ -22,11 +22,7 @@ divi();
 
 
 }
-else if (dis=="$"){
- var sss=function(){
-       alert("ssss")     
-}
-alert(sss())
+
 }
 function sum(){
 
@@ -49,7 +45,9 @@ function min(){
         function divi(){
                 divi1=parseInt(fnum)/parseInt(snum);
             alert(divi1);
-         }}
+         }
+
+         colaction()
 
 let getItem = function() {
     let userInput = prompt('please enter what you need to order?');
@@ -78,9 +76,6 @@ let getItem = function() {
     return count;
   }
   
-  // function showOrder
-  // declare the other fuunction
-  // call functioon from the html
   
   let showOrder = function() {
     let item = getItem();
@@ -90,6 +85,5 @@ let getItem = function() {
     for(let i = 0; i < total; i++) {
       result = result + '<p>Model #' + i + ' ' + item + '</p>';
     }
-    // document.write(item);
     return result;
   }
