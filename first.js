@@ -1,4 +1,4 @@
-/*var fnum = prompt("give me first number please :");
+var fnum = prompt("give me first number please :");
 var snum=prompt("give me secound number please :");
 var dis =prompt("enter ono of these + - * / ");
 
@@ -50,29 +50,6 @@ function min(){
                 divi1=parseInt(fnum)/parseInt(snum);
             alert(divi1);
          }}
-colaction();
-
-/*function getitem(){
-           var s1=document.getElementsByClassName("s1")
-ask1=prompt("what you want ?");
-            while (ask1!="house"||as1!="car"){
-
-
-                whynot=prompt("please choice one from those ? 1-car 2-house ");
-                while(whynot=="car"){
- 
-                    item = '<img src="images/house.png" />';
-                }
-
-return item;
-}}
-
-
-while(ask1=="house"){
-    alert("hello from the house section");
-
-    break;
-}*/
 
 let getItem = function() {
     let userInput = prompt('please enter what you need to order?');
